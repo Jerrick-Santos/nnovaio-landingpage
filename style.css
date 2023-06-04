@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #F1F1F1;
+    font-size: 1.2rem;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.elements, .elm{
+    display: flex;
+}
+
+.elements{
+    align-items: center;
+}
+
+.elm{
+    gap: 2rem;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+}
+
+#nav-button{
+    height: 3rem;
+    width: 9rem;
+    font-size: 1.2rem;
+    background-image: linear-gradient(to right, #495197, #EC1C6D);
+    color: #F1F1F1;
+    border-radius: 5px;
+    border-color: black;
+    border: none;
+}
+
+#nav-button:hover{
+    background-image: linear-gradient(to right, #EC1C6D, #495197);
+    opacity: 1;
+}
+
+
+
+
+
+
+.countdown{
+    height: 50vh;
+    background-image: linear-gradient(to right, #495197, #EC1C6D);
+    padding: 10rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#superstar{
+    font-size: 5rem;
+    color: #F1F1F1;
+}
+
+.cd-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: #F1F1F1;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.cd{
+    font-size: 3.5rem;
+    background-color: black;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#cd-button{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: #F1F1F1;
+    border-radius: 5px;
+    border-color: black;
+    border: none;
+}
+
+#cd-button:hover{
+    background-image: linear-gradient(to right, #495197, #EC1C6D);
+    color: white;
+    border: black;
+    border-style: solid;
+}
+
+.cd-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+input{
+    width: 17rem;
+    height: 2.4rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/artist.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: #F1F1F1;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5rem;
+    gap: 2rem;
+}
+
+#about-heading{
+    font-size: 3.5rem;
+    color: #EC1C6D;
+}
+
+#about-desc{
+    font-size: 1.7rem;
+    width: 80%;
+}
+
+
+
+footer{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: #F1F1F1;
+    padding: 1.5rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.socials{
+    display: flex;
+    gap: 3rem;
+    text-decoration: underline;
+}
